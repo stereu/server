@@ -24,7 +24,7 @@ declare(strict_types=1);
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OC\Authentication\TwoFactorAuth\EnforcementState;
 use OC\Authentication\TwoFactorAuth\MandatoryTwoFactor;

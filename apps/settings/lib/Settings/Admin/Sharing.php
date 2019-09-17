@@ -24,7 +24,7 @@
  *
  */
 
-namespace OC\Settings\Admin;
+namespace OCA\Settings\Admin;
 
 use OC\Share\Share;
 use OCP\AppFramework\Http\TemplateResponse;

@@ -21,7 +21,7 @@
  *
  */
 
-namespace OC\Settings\Personal;
+namespace OCA\Settings\Personal;
 
 
 use function array_filter;

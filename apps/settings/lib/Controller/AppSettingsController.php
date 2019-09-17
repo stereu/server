@@ -29,7 +29,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OC\App\AppStore\Bundles\BundleFetcher;
 use OC\App\AppStore\Fetcher\AppFetcher;

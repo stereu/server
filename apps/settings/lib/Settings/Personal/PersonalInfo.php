@@ -23,7 +23,7 @@
  *
  */
 
-namespace OC\Settings\Personal;
+namespace OCA\Settings\Personal;
 
 use OC\Accounts\AccountManager;
 use OCA\FederatedFileSharing\AppInfo\Application;
@@ -202,7 +202,7 @@ class PersonalInfo implements ISettings {
 		$userLang = $languages['commonlanguages'][$userLangIndex];
 		// search in the other languages
 		if ($userLangIndex === false) {
-			$userLangIndex = array_search($userConfLang, array_column($languages['languages'], 'code'));		
+			$userLangIndex = array_search($userConfLang, array_column($languages['languages'], 'code'));
 			$userLang = $languages['languages'][$userLangIndex];
 		}
 		// if user language is not available but set somehow: show the actual code as name

@@ -23,7 +23,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\TemplateResponse;

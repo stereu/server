@@ -23,7 +23,7 @@
  *
  */
 
-namespace OC\Settings\Admin;
+namespace OCA\Settings\Admin;
 
 use OC\Authentication\TwoFactorAuth\MandatoryTwoFactor;
 use OCP\AppFramework\Http\TemplateResponse;

@@ -25,7 +25,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use BadMethodCallException;
 use OC\Authentication\Exceptions\InvalidTokenException;

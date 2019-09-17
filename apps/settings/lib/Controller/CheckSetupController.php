@@ -28,7 +28,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use bantu\IniGetWrapper\IniGetWrapper;
 use DirectoryIterator;

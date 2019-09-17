@@ -22,7 +22,7 @@
  *
  */
 
-namespace OC\Settings\Middleware;
+namespace OCA\Settings\Middleware;
 
 use OC\AppFramework\Http;
 use OC\AppFramework\Middleware\Security\Exceptions\NotAdminException;

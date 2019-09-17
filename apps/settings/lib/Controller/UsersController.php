@@ -37,7 +37,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OC\Accounts\AccountManager;
 use OC\AppFramework\Http;

@@ -27,7 +27,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OC\HintException;
 use OC\User\Session;

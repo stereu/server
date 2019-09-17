@@ -21,7 +21,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OC\Settings\Personal;
+namespace OCA\Settings\Personal;
 
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Settings\ISettings;

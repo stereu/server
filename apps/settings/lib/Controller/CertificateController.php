@@ -24,7 +24,7 @@
  *
  */
 
-namespace OC\Settings\Controller;
+namespace OCA\Settings\Controller;
 
 use OCP\App\IAppManager;
 use OCP\AppFramework\Controller;

@@ -22,7 +22,7 @@ declare(strict_types=1);
  *
  */
 
-namespace OC\Settings\Personal\Security;
+namespace OCA\Settings\Personal\Security;
 
 use function array_map;
 use OC\Authentication\Exceptions\InvalidTokenException;

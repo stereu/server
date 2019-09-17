@@ -21,7 +21,30 @@ class ComposerStaticInitSettings
     );
 
     public static $classMap = array (
+        'OCA\\Settings\\Admin\\Mail' => __DIR__ . '/..' . '/../lib/Settings/Admin/Mail.php',
+        'OCA\\Settings\\Admin\\Overview' => __DIR__ . '/..' . '/../lib/Settings/Admin/Overview.php',
+        'OCA\\Settings\\Admin\\Security' => __DIR__ . '/..' . '/../lib/Settings/Admin/Security.php',
+        'OCA\\Settings\\Admin\\Server' => __DIR__ . '/..' . '/../lib/Settings/Admin/Server.php',
+        'OCA\\Settings\\Admin\\Sharing' => __DIR__ . '/..' . '/../lib/Settings/Admin/Sharing.php',
         'OCA\\Settings\\AppInfo\\Application' => __DIR__ . '/..' . '/../lib/AppInfo/Application.php',
+        'OCA\\Settings\\Controller\\AdminSettingsController' => __DIR__ . '/..' . '/../lib/Controller/AdminSettingsController.php',
+        'OCA\\Settings\\Controller\\AppSettingsController' => __DIR__ . '/..' . '/../lib/Controller/AppSettingsController.php',
+        'OCA\\Settings\\Controller\\AuthSettingsController' => __DIR__ . '/..' . '/../lib/Controller/AuthSettingsController.php',
+        'OCA\\Settings\\Controller\\CertificateController' => __DIR__ . '/..' . '/../lib/Controller/CertificateController.php',
+        'OCA\\Settings\\Controller\\ChangePasswordController' => __DIR__ . '/..' . '/../lib/Controller/ChangePasswordController.php',
+        'OCA\\Settings\\Controller\\CheckSetupController' => __DIR__ . '/..' . '/../lib/Controller/CheckSetupController.php',
+        'OCA\\Settings\\Controller\\CommonSettingsTrait' => __DIR__ . '/..' . '/../lib/Controller/CommonSettingsTrait.php',
+        'OCA\\Settings\\Controller\\LogSettingsController' => __DIR__ . '/..' . '/../lib/Controller/LogSettingsController.php',
+        'OCA\\Settings\\Controller\\MailSettingsController' => __DIR__ . '/..' . '/../lib/Controller/MailSettingsController.php',
+        'OCA\\Settings\\Controller\\PersonalSettingsController' => __DIR__ . '/..' . '/../lib/Controller/PersonalSettingsController.php',
+        'OCA\\Settings\\Controller\\TwoFactorSettingsController' => __DIR__ . '/..' . '/../lib/Controller/TwoFactorSettingsController.php',
+        'OCA\\Settings\\Controller\\UsersController' => __DIR__ . '/..' . '/../lib/Controller/UsersController.php',
+        'OCA\\Settings\\Middleware\\SubadminMiddleware' => __DIR__ . '/..' . '/../lib/Middleware/SubadminMiddleware.php',
+        'OCA\\Settings\\Personal\\Additional' => __DIR__ . '/..' . '/../lib/Settings/Personal/Additional.php',
+        'OCA\\Settings\\Personal\\PersonalInfo' => __DIR__ . '/..' . '/../lib/Settings/Personal/PersonalInfo.php',
+        'OCA\\Settings\\Personal\\Security' => __DIR__ . '/..' . '/../lib/Settings/Personal/Security.php',
+        'OCA\\Settings\\Personal\\Security\\Authtokens' => __DIR__ . '/..' . '/../lib/Settings/Personal/Security/Authtokens.php',
+        'OCA\\Settings\\Personal\\ServerDevNotice' => __DIR__ . '/..' . '/../lib/Settings/Personal/ServerDevNotice.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
