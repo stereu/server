@@ -22,7 +22,7 @@
 
 namespace Tests\Settings\Activity;
 
-use OC\Settings\Activity\SecurityFilter;
+use OCA\Settings\Activity\SecurityFilter;
 use OCP\IL10N;
 use OCP\IURLGenerator;
 use Test\TestCase;

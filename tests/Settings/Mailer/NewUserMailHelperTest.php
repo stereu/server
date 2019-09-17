@@ -25,7 +25,7 @@ use OC\Mail\EMailTemplate;
 use OCP\L10N\IFactory;
 use OCP\Mail\IEMailTemplate;
 use OC\Mail\Message;
-use OC\Settings\Mailer\NewUserMailHelper;
+use OCA\Settings\Mailer\NewUserMailHelper;
 use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Defaults;
 use OCP\IConfig;
@@ -54,7 +54,7 @@ class NewUserMailHelperTest extends TestCase {
 	private $config;
 	/** @var ICrypto|\PHPUnit_Framework_MockObject_MockObject */
 	private $crypto;
-	/** @var NewUserMailHelper */
+	/** @var \OCA\Settings\Mailer\NewUserMailHelper */
 	private $newUserMailHelper;
 
 	public function setUp() {
@@ -101,7 +101,7 @@ class NewUserMailHelperTest extends TestCase {
 				return $this->l10n;
 			}));
 
-		$this->newUserMailHelper = new NewUserMailHelper(
+		$this->newUserMailHelper = new \OCA\Settings\Mailer\NewUserMailHelper(
 			$this->defaults,
 			$this->urlGenerator,
 			$this->l10nFactory,

@@ -36,7 +36,7 @@ use OC\Authentication\Token\IProvider;
 use OC\Authentication\Token\IToken;
 use OC\Authentication\Token\IWipeableToken;
 use OC\Authentication\Token\RemoteWipe;
-use OC\Settings\Activity\Provider;
+use OCA\Settings\Activity\Provider;
 use OCP\Activity\IManager;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;

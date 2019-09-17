@@ -60,7 +60,7 @@ use OCP\IUserManager;
 use OCP\IUserSession;
 use OCP\L10N\IFactory;
 use OCP\Mail\IMailer;
-use OC\Settings\BackgroundJobs\VerifyUserData;
+use OCA\Settings\BackgroundJobs\VerifyUserData;
 
 /**
  * @package OC\Settings\Controller

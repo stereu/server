@@ -22,7 +22,7 @@ declare(strict_types=1);
  *
  */
 
-namespace OC\Settings\Activity;
+namespace OCA\Settings\Activity;
 
 use OCP\Activity\IEvent;
 use OCP\Activity\IManager;

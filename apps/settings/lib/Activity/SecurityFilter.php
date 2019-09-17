@@ -21,7 +21,7 @@
  *
  */
 
-namespace OC\Settings\Activity;
+namespace OCA\Settings\Activity;
 
 use OCP\Activity\IFilter;
 use OCP\IL10N;

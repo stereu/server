@@ -15,7 +15,7 @@ use OC\Encryption\Exceptions\ModuleDoesNotExistsException;
 use OC\Group\Group;
 use OC\Group\Manager;
 use OC\Settings\Controller\UsersController;
-use OC\Settings\Mailer\NewUserMailHelper;
+use OCA\Settings\Mailer\NewUserMailHelper;
 use OC\SubAdmin;
 use OCP\App\IAppManager;
 use OCP\AppFramework\Http;
@@ -73,7 +73,7 @@ class UsersControllerTest extends \Test\TestCase {
 	private $accountManager;
 	/** @var ISecureRandom | \PHPUnit_Framework_MockObject_MockObject  */
 	private $secureRandom;
-	/** @var NewUserMailHelper|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var \OCA\Settings\Mailer\NewUserMailHelper|\PHPUnit_Framework_MockObject_MockObject */
 	private $newUserMailHelper;
 	/** @var  IJobList | \PHPUnit_Framework_MockObject_MockObject */
 	private $jobList;
@@ -459,7 +459,7 @@ class UsersControllerTest extends \Test\TestCase {
 		if ($onlyVerificationCode === false) {
 			$this->accountManager->expects($this->once())->method('updateUser')->with($user, $expectedData);
 			$this->jobList->expects($this->once())->method('add')
-				->with('OC\Settings\BackgroundJobs\VerifyUserData',
+				->with('OCA\Settings\BackgroundJobs\VerifyUserData',
 					[
 						'verificationCode' => $code,
 						'data' => $dataBefore[$type]['value'],

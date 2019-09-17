@@ -25,8 +25,8 @@
 
 namespace OC\Settings;
 
-use OC\Settings\Activity\GroupProvider;
-use OC\Settings\Activity\Provider;
+use OCA\Settings\Activity\GroupProvider;
+use OCA\Settings\Activity\Provider;
 use OCP\Activity\IManager as IActivityManager;
 use OCP\IConfig;
 use OCP\IGroup;

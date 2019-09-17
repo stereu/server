@@ -24,7 +24,7 @@
  */
 
 
-namespace OC\Settings\BackgroundJobs;
+namespace OCA\Settings\BackgroundJobs;
 
 
 use OC\Accounts\AccountManager;

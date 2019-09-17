@@ -23,7 +23,7 @@
 namespace Tests\Settings\Activity;
 
 use InvalidArgumentException;
-use OC\Settings\Activity\SecurityProvider;
+use OCA\Settings\Activity\SecurityProvider;
 use OCP\Activity\IEvent;
 use OCP\Activity\IManager;
 use OCP\IL10N;
@@ -43,7 +43,7 @@ class SecurityProviderTest extends TestCase {
 	/** @var IManager|PHPUnit_Framework_MockObject_MockObject */
 	private $activityManager;
 
-	/** @var SecurityProvider */
+	/** @var \OCA\Settings\Activity\SecurityProvider */
 	private $provider;
 
 	protected function setUp() {
@@ -53,7 +53,7 @@ class SecurityProviderTest extends TestCase {
 		$this->urlGenerator = $this->createMock(IURLGenerator::class);
 		$this->activityManager = $this->createMock(IManager::class);
 
-		$this->provider = new SecurityProvider($this->l10n, $this->urlGenerator, $this->activityManager);
+		$this->provider = new \OCA\Settings\Activity\SecurityProvider($this->l10n, $this->urlGenerator, $this->activityManager);
 	}
 
 	public function testParseUnrelated() {

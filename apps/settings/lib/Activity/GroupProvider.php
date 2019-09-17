@@ -22,7 +22,7 @@
  *
  */
 
-namespace OC\Settings\Activity;
+namespace OCA\Settings\Activity;
 
 use InvalidArgumentException;
 use OCP\Activity\IEvent;

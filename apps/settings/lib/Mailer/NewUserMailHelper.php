@@ -24,7 +24,7 @@
  *
  */
 
-namespace OC\Settings\Mailer;
+namespace OCA\Settings\Mailer;
 
 use OCP\L10N\IFactory;
 use OCP\Mail\IEMailTemplate;
