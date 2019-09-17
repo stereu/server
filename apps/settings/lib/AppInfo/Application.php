@@ -26,7 +26,7 @@
  *
  */
 
-namespace OC\Settings;
+namespace OCA\Settings\AppInfo;
 
 use BadMethodCallException;
 use OC\AppFramework\Utility\TimeFactory;
@@ -170,7 +170,7 @@ class Application extends App {
 		/** @var Hooks $hooks */
 		$hooks = $this->getContainer()->query(Hooks::class);
 		$hooks->addUserToGroup($group, $user);
-		
+
 	}
 
 	public function removeUserFromGroup(IGroup $group, IUser $user): void {

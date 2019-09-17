@@ -34,7 +34,9 @@
  *
  */
 
-namespace OC\Settings;
+namespace OCA\Settings;
+
+use OCA\Settings\AppInfo\Application;
 
 $application = new Application();
 $application->registerRoutes($this, [
