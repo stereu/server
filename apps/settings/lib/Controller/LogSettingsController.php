@@ -31,11 +31,6 @@ use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\StreamResponse;
 use OCP\IRequest;
 
-/**
- * Class LogSettingsController
- *
- * @package OC\Settings\Controller
- */
 class LogSettingsController extends Controller {
 
 	/** @var Log */

@@ -36,9 +36,6 @@ use OCP\IUserSession;
 use OCP\Settings\IManager as ISettingsManager;
 use OCP\Template;
 
-/**
- * @package OC\Settings\Controller
- */
 class AdminSettingsController extends Controller {
 	use CommonSettingsTrait;
 

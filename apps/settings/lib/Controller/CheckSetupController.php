@@ -61,9 +61,6 @@ use OCP\Security\ISecureRandom;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
 
-/**
- * @package OC\Settings\Controller
- */
 class CheckSetupController extends Controller {
 	/** @var IConfig */
 	private $config;

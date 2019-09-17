@@ -34,9 +34,6 @@ use OCP\IConfig;
 use OCP\IUserSession;
 use OCP\Mail\IMailer;
 
-/**
- * @package OC\Settings\Controller
- */
 class MailSettingsController extends Controller {
 
 	/** @var IL10N */

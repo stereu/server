@@ -54,9 +54,6 @@ use OCP\Util;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
 
-/**
- * @package OC\Settings
- */
 class Application extends App {
 
 

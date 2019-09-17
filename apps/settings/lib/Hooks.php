@@ -23,7 +23,7 @@
  *
  */
 
-namespace OC\Settings;
+namespace OCA\Settings;
 
 use OCA\Settings\Activity\GroupProvider;
 use OCA\Settings\Activity\Provider;

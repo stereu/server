@@ -62,9 +62,6 @@ use OCP\L10N\IFactory;
 use OCP\Mail\IMailer;
 use OCA\Settings\BackgroundJobs\VerifyUserData;
 
-/**
- * @package OC\Settings\Controller
- */
 class UsersController extends Controller {
 	/** @var IUserManager */
 	private $userManager;

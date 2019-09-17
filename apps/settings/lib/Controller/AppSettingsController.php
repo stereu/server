@@ -53,9 +53,6 @@ use OCP\IConfig;
 use OCP\IURLGenerator;
 use OCP\L10N\IFactory;
 
-/**
- * @package OC\Settings\Controller
- */
 class AppSettingsController extends Controller {
 
 	/** @var \OCP\IL10N */

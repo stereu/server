@@ -35,8 +35,6 @@ use OCP\IL10N;
 /**
  * Verifies whether an user has at least subadmin rights.
  * To bypass use the `@NoSubadminRequired` annotation
- *
- * @package OC\Settings\Middleware
  */
 class SubadminMiddleware extends Middleware {
 	/** @var bool */
