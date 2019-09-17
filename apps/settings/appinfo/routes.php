@@ -39,6 +39,7 @@ namespace OCA\Settings;
 use OCA\Settings\AppInfo\Application;
 
 $application = new Application();
+$this->useCollection('root');
 $application->registerRoutes($this, [
 	'resources' => [
 		'AuthSettings' => ['url' => '/settings/personal/authtokens'],
