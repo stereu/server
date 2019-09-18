@@ -22,7 +22,7 @@ declare(strict_types=1);
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Test\Settings\Personal;
+namespace OCA\Settings\Tests\Settings\Personal;
 
 use OC\Authentication\TwoFactorAuth\ProviderLoader;
 use OCP\IInitialStateService;

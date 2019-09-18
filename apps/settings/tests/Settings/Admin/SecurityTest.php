@@ -21,11 +21,11 @@
  *
  */
 
-namespace Test\Settings\Admin;
+namespace OCA\Settings\Tests\Settings\Admin;
 
 use OC\Authentication\TwoFactorAuth\MandatoryTwoFactor;
 use OC\Encryption\Manager;
-use OC\Settings\Admin\Security;
+use OCA\Settings\Admin\Security;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IInitialStateService;
 use OCP\IUserManager;
@@ -46,7 +46,7 @@ class SecurityTest extends TestCase {
 
 	public function setUp() {
 		parent::setUp();
-		$this->manager = $this->getMockBuilder('\OC\Encryption\Manager')->disableOriginalConstructor()->getMock();
+		$this->manager = $this->getMockBuilder(Manager::class)->disableOriginalConstructor()->getMock();
 		$this->userManager = $this->getMockBuilder(IUserManager::class)->getMock();
 		$this->mandatoryTwoFactor = $this->createMock(MandatoryTwoFactor::class);
 		$this->initialState = $this->createMock(IInitialStateService::class);

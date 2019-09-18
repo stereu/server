@@ -21,16 +21,15 @@
  *
  */
 
-namespace Test\Settings\Admin;
+namespace OCA\Settings\Tests\Settings\Admin;
 
-use OC\Settings\Admin\Additional;
-use OC\Settings\Admin\Mail;
+use OCA\Settings\Admin\Mail;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use Test\TestCase;
 
 class MailTest extends TestCase {
-	/** @var Additional */
+	/** @var Mail */
 	private $admin;
 	/** @var IConfig */
 	private $config;
