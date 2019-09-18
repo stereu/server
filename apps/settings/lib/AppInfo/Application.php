@@ -40,6 +40,7 @@ use OCA\Settings\Activity\SecurityFilter;
 use OCA\Settings\Activity\SecurityProvider;
 use OCA\Settings\Activity\SecuritySetting;
 use OCA\Settings\Activity\Setting;
+use OCA\Settings\Hooks;
 use OCA\Settings\Mailer\NewUserMailHelper;
 use OCA\Settings\Middleware\SubadminMiddleware;
 use OCP\Activity\IManager as IActivityManager;
