@@ -27,7 +27,7 @@ use OC\Authentication\Token\DefaultToken;
 use OC\Authentication\Token\IProvider;
 use OC\Authentication\Token\IToken;
 use OC\Authentication\Token\RemoteWipe;
-use OC\Settings\Controller\AuthSettingsController;
+use OCA\Settings\Controller\AuthSettingsController;
 use OCP\Activity\IEvent;
 use OCP\Activity\IManager;
 use OCP\AppFramework\Http\JSONResponse;

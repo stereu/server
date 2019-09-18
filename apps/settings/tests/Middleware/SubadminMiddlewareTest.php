@@ -12,7 +12,7 @@ namespace OCA\Settings\Tests\Middleware;
 
 use OC\AppFramework\Middleware\Security\Exceptions\NotAdminException;
 use OC\AppFramework\Utility\ControllerMethodReflector;
-use OC\Settings\Middleware\SubadminMiddleware;
+use OCA\Settings\Middleware\SubadminMiddleware;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IL10N;
