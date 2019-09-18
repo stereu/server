@@ -177,6 +177,7 @@ class Application extends App {
 		$hooks->removeUserFromGroup($group, $user);
 	}
 
+
 	/**
 	 * @param array $parameters
 	 * @throws \InvalidArgumentException
