@@ -8,26 +8,19 @@
  * See the COPYING-README file.
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
 use OC\Accounts\AccountManager;
 use OC\Encryption\Exceptions\ModuleDoesNotExistsException;
-use OC\Group\Group;
 use OC\Group\Manager;
-use OC\Settings\Controller\UsersController;
-use OCA\Settings\Mailer\NewUserMailHelper;
-use OC\SubAdmin;
+use OCA\Settings\Controller\UsersController;
 use OCP\App\IAppManager;
 use OCP\AppFramework\Http;
-use OCP\AppFramework\Http\DataResponse;
 use OCP\BackgroundJob\IJobList;
-use OCP\Files\Config\IUserMountCache;
 use OCP\Encryption\IEncryptionModule;
 use OCP\Encryption\IManager;
-use OCP\IAvatar;
 use OCP\IAvatarManager;
 use OCP\IConfig;
-use OCP\IGroup;
 use OCP\IGroupManager;
 use OCP\IL10N;
 use OCP\ILogger;
@@ -36,11 +29,8 @@ use OCP\IUser;
 use OCP\IUserManager;
 use OCP\IUserSession;
 use OCP\L10N\IFactory;
-use OCP\Mail\IEMailTemplate;
 use OCP\Mail\IMailer;
 use OCP\Security\ISecureRandom;
-use OC\User\User;
-use Test\Util\User\Dummy;
 
 /**
  * @group DB

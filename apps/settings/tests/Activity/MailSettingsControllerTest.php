@@ -11,10 +11,10 @@
  * See the COPYING-README file.
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
 use OC\Mail\Message;
-use OC\Settings\Controller\MailSettingsController;
+use OCA\Settings\Controller\MailSettingsController;
 use OCP\AppFramework\Http;
 use OCP\IConfig;
 use OCP\IL10N;

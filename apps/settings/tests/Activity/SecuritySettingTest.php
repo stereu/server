@@ -20,7 +20,7 @@
  *
  */
 
-namespace Tests\Settings\Activity;
+namespace OCA\Settings\Tests;
 
 use OCA\Settings\Activity\SecuritySetting;
 use OCP\IL10N;
@@ -38,7 +38,7 @@ class SecuritySettingTest extends TestCase {
 
 		$this->l10n = $this->createMock(IL10N::class);
 
-		$this->setting = new \OCA\Settings\Activity\SecuritySetting($this->l10n);
+		$this->setting = new SecuritySetting($this->l10n);
 	}
 
 	public function testCanChangeMail() {

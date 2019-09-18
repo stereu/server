@@ -21,21 +21,21 @@
  *
  */
 
-namespace Tests\Settings;
+namespace OCA\Settings\Tests\AppInfo;
 
 
-use OC\Settings\Application;
-use OC\Settings\Controller\AdminSettingsController;
-use OC\Settings\Controller\AppSettingsController;
-use OC\Settings\Controller\AuthSettingsController;
-use OC\Settings\Controller\CertificateController;
-use OC\Settings\Controller\CheckSetupController;
-use OC\Settings\Controller\GroupsController;
-use OC\Settings\Controller\LogSettingsController;
-use OC\Settings\Controller\MailSettingsController;
-use OC\Settings\Controller\UsersController;
-use OC\Settings\Middleware\SubadminMiddleware;
+use OCA\Settings\AppInfo\Application;
+use OCA\Settings\Controller\AdminSettingsController;
+use OCA\Settings\Controller\AppSettingsController;
+use OCA\Settings\Controller\AuthSettingsController;
+use OCA\Settings\Controller\CertificateController;
+use OCA\Settings\Controller\CheckSetupController;
+use OCA\Settings\Controller\LogSettingsController;
+use OCA\Settings\Controller\MailSettingsController;
+use OCA\Settings\Controller\UsersController;
+use OCA\Settings\Middleware\SubadminMiddleware;
 use OCP\AppFramework\Controller;
+use OCP\AppFramework\IAppContainer;
 use OCP\AppFramework\Middleware;
 use OCP\IUser;
 use OCP\IUserSession;
@@ -48,10 +48,10 @@ use Test\TestCase;
  * @group DB
  */
 class ApplicationTest extends TestCase {
-	/** @var \OC\Settings\Application */
+	/** @var Application */
 	protected $app;
 
-	/** @var \OCP\AppFramework\IAppContainer */
+	/** @var IAppContainer */
 	protected $container;
 
 	protected function setUp() {

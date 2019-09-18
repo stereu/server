@@ -19,7 +19,7 @@
  *
  */
 
-namespace Tests\Settings\Mailer;
+namespace OCA\Settings\Tests\Mailer;
 
 use OC\Mail\EMailTemplate;
 use OCP\L10N\IFactory;

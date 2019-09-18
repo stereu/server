@@ -20,11 +20,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
 use OC\Authentication\TwoFactorAuth\EnforcementState;
 use OC\Authentication\TwoFactorAuth\MandatoryTwoFactor;
-use OC\Settings\Controller\TwoFactorSettingsController;
+use OCA\Settings\Controller\TwoFactorSettingsController;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\IRequest;
 use PHPUnit\Framework\MockObject\MockObject;

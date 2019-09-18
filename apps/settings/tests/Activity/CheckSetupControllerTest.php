@@ -19,13 +19,13 @@
  *
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
 use OC;
 use OC\DB\Connection;
 use OC\MemoryInfo;
 use OC\Security\SecureRandom;
-use OC\Settings\Controller\CheckSetupController;
+use OCA\Settings\Controller\CheckSetupController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataDisplayResponse;
 use OCP\AppFramework\Http\DataResponse;

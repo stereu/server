@@ -20,19 +20,20 @@
  *
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
 use OC\App\AppStore\Bundles\BundleFetcher;
 use OC\App\AppStore\Fetcher\AppFetcher;
 use OC\App\AppStore\Fetcher\CategoryFetcher;
 use OC\Installer;
-use OC\Settings\Controller\AppSettingsController;
+use OCA\Settings\Controller\AppSettingsController;
 use OCP\AppFramework\Http\ContentSecurityPolicy;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\ILogger;
 use OCP\IURLGenerator;
 use OCP\L10N\IFactory;
+use PHPUnit\Framework\MockObject\MockObject;
 use Test\TestCase;
 use OCP\IRequest;
 use OCP\IL10N;
@@ -50,29 +51,29 @@ use OCP\App\IAppManager;
 class AppSettingsControllerTest extends TestCase {
 	/** @var AppSettingsController */
 	private $appSettingsController;
-	/** @var IRequest|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IRequest|MockObject */
 	private $request;
-	/** @var IL10N|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IL10N|MockObject */
 	private $l10n;
-	/** @var IConfig|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IConfig|MockObject */
 	private $config;
-	/** @var INavigationManager|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var INavigationManager|MockObject */
 	private $navigationManager;
-	/** @var IAppManager|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IAppManager|MockObject */
 	private $appManager;
-	/** @var CategoryFetcher|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var CategoryFetcher|MockObject */
 	private $categoryFetcher;
-	/** @var AppFetcher|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var AppFetcher|MockObject */
 	private $appFetcher;
-	/** @var IFactory|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IFactory|MockObject */
 	private $l10nFactory;
-	/** @var BundleFetcher|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var BundleFetcher|MockObject */
 	private $bundleFetcher;
-	/** @var Installer|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var Installer|MockObject */
 	private $installer;
-	/** @var IURLGenerator|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var IURLGenerator|MockObject */
 	private $urlGenerator;
-	/** @var ILogger|\PHPUnit_Framework_MockObject_MockObject */
+	/** @var ILogger|MockObject */
 	private $logger;
 
 	public function setUp() {

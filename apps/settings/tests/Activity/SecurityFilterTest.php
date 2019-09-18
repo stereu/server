@@ -20,16 +20,20 @@
  *
  */
 
-namespace Tests\Settings\Activity;
+namespace OCA\Settings\Tests;
 
 use OCA\Settings\Activity\SecurityFilter;
 use OCP\IL10N;
 use OCP\IURLGenerator;
+use PHPUnit\Framework\MockObject\MockObject;
 use Test\TestCase;
 
 class SecurityFilterTest extends TestCase {
 
+	/** @var IURLGenerator|MockObject */
 	private $urlGenerator;
+
+	/** @var IL10N|MockObject */
 	private $l10n;
 
 	/** @var SecurityFilter */

@@ -8,7 +8,7 @@
  * See the COPYING-README file.
  */
 
-namespace Tests\Settings\Middleware;
+namespace OCA\Settings\Tests\Middleware;
 
 use OC\AppFramework\Middleware\Security\Exceptions\NotAdminException;
 use OC\AppFramework\Utility\ControllerMethodReflector;

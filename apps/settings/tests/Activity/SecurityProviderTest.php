@@ -20,7 +20,7 @@
  *
  */
 
-namespace Tests\Settings\Activity;
+namespace OCA\Settings\Tests;
 
 use InvalidArgumentException;
 use OCA\Settings\Activity\SecurityProvider;
@@ -43,7 +43,7 @@ class SecurityProviderTest extends TestCase {
 	/** @var IManager|PHPUnit_Framework_MockObject_MockObject */
 	private $activityManager;
 
-	/** @var \OCA\Settings\Activity\SecurityProvider */
+	/** @var SecurityProvider */
 	private $provider;
 
 	protected function setUp() {

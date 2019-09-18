@@ -21,7 +21,7 @@
  *
  */
 
-namespace Tests\Settings;
+namespace OCA\Settings\Tests\AppInfo;
 
 use function get_class;
 use OC\Settings\Admin\Sharing;

@@ -19,9 +19,9 @@
  *
  */
 
-namespace Tests\Settings\Controller;
+namespace OCA\Settings\Tests\Activity;
 
-use OC\Settings\Controller\CertificateController;
+use OCA\Settings\Controller\CertificateController;
 use OCP\App\IAppManager;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
