@@ -52,12 +52,12 @@ class CertificateControllerTest extends \Test\TestCase {
 		parent::setUp();
 
 		$this->request = $this->getMockBuilder(IRequest::class)->getMock();
-		$this->certificateManager = $this->getMockBuilder('\OCP\ICertificateManager')->getMock();
-		$this->systemCertificateManager = $this->getMockBuilder('\OCP\ICertificateManager')->getMock();
+		$this->certificateManager = $this->getMockBuilder(ICertificateManager::class)->getMock();
+		$this->systemCertificateManager = $this->getMockBuilder(ICertificateManager::class)->getMock();
 		$this->l10n = $this->getMockBuilder(IL10N::class)->getMock();
-		$this->appManager = $this->getMockBuilder('OCP\App\IAppManager')->getMock();
+		$this->appManager = $this->getMockBuilder(IAppManager::class)->getMock();
 
-		$this->certificateController = $this->getMockBuilder('OC\Settings\Controller\CertificateController')
+		$this->certificateController = $this->getMockBuilder(CertificateController::class)
 			->setConstructorArgs(
 				[
 					'settings',

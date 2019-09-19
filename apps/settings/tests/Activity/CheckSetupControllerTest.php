@@ -118,7 +118,7 @@ class CheckSetupControllerTest extends TestCase {
 			->setMethods(['isMemoryLimitSufficient',])
 			->getMock();
 		$this->secureRandom = $this->getMockBuilder(SecureRandom::class)->getMock();
-		$this->checkSetupController = $this->getMockBuilder('\OC\Settings\Controller\CheckSetupController')
+		$this->checkSetupController = $this->getMockBuilder(CheckSetupController::class)
 			->setConstructorArgs([
 				'settings',
 				$this->request,

@@ -26,8 +26,7 @@ namespace OCA\Settings\Tests\Settings\Personal;
 
 use OC\Authentication\TwoFactorAuth\ProviderLoader;
 use OCP\IInitialStateService;
-use OCP\InitialStateService;
-use OC\Settings\Personal\Security;
+use OCA\Settings\Personal\Security;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\IUser;
@@ -38,7 +37,7 @@ use Test\TestCase;
 
 class SecurityTest extends TestCase {
 
-	/** @var InitialStateService|MockObject */
+	/** @var IInitialStateService|MockObject */
 	private $initialStateService;
 
 	/** @var IUserManager|MockObject */

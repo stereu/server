@@ -27,8 +27,8 @@ namespace Test\Settings\Personal\Security;
 
 use OC\Authentication\Token\DefaultToken;
 use OC\Authentication\Token\IProvider as IAuthTokenProvider;
-use OC\Settings\Personal\Security;
-use OC\Settings\Personal\Security\Authtokens;
+use OCA\Settings\Personal\Security;
+use OCA\Settings\Personal\Security\Authtokens;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IInitialStateService;
 use OCP\ISession;
