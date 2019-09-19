@@ -577,7 +577,7 @@ class CheckSetupControllerTest extends TestCase {
 	}
 
 	public function testIsPHPMailerUsed() {
-		$checkSetupController = $this->getMockBuilder('\OC\Settings\Controller\CheckSetupController')
+		$checkSetupController = $this->getMockBuilder(CheckSetupController::class)
 			->setConstructorArgs([
 				'settings',
 				$this->request,
@@ -610,7 +610,7 @@ class CheckSetupControllerTest extends TestCase {
 	}
 
 	public function testGetCurlVersion() {
-		$checkSetupController = $this->getMockBuilder('\OC\Settings\Controller\CheckSetupController')
+		$checkSetupController = $this->getMockBuilder(CheckSetupController::class)
 			->setConstructorArgs([
 				'settings',
 				$this->request,

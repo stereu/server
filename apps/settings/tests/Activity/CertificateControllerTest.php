@@ -86,7 +86,7 @@ class CertificateControllerTest extends \Test\TestCase {
 
 	public function testAddPersonalRootCertificateValidCertificate() {
 		$uploadedFile = [
-			'tmp_name' => __DIR__ . '/../../data/certificates/goodCertificate.crt',
+			'tmp_name' => __DIR__ . '/../../../../tests/data/certificates/goodCertificate.crt',
 			'name' => 'goodCertificate.crt',
 		];
 
@@ -159,7 +159,7 @@ class CertificateControllerTest extends \Test\TestCase {
 
 	public function testAddPersonalRootCertificateInvalidCertificate() {
 		$uploadedFile = [
-			'tmp_name' => __DIR__ . '/../../data/certificates/badCertificate.crt',
+			'tmp_name' => __DIR__ . '/../../../../tests/data/certificates/badCertificate.crt',
 			'name' => 'badCertificate.crt',
 		];
 
