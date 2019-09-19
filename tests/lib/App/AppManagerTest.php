@@ -385,9 +385,9 @@ class AppManagerTest extends TestCase {
 			'lookup_server_connector',
 			'oauth2',
 			'provisioning_api',
+			'settings',
 			'test1',
 			'test3',
-			'settings',
 			'twofactor_backupcodes',
 			'workflowengine',
 		];
@@ -413,9 +413,9 @@ class AppManagerTest extends TestCase {
 			'lookup_server_connector',
 			'oauth2',
 			'provisioning_api',
+			'settings',
 			'test1',
 			'test3',
-			'settings',
 			'twofactor_backupcodes',
 			'workflowengine',
 		];
